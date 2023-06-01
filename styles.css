@@ -12,13 +12,6 @@
   list-style-type: none;
 }
 
-.status-bar {
-  margin: 1%;
-  width: 105%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .header {
   margin: 1%;
   padding: 1%;
