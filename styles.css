@@ -13,8 +13,7 @@
 }
 
 .header {
-  margin: 1%;
-  padding: 1%;
+  padding: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
