@@ -198,6 +198,89 @@
   margin: 2%;
 }
 
+.about-me {
+  margin-top: 7%;
+  padding: 2%;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-on-about {
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: border-box;
+  background-image: url(assets/images/about-illsutration-me.svg), url(assets/images/about-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 20% 180%, 180% 30%;
+  background-position: revert;
+  background-origin: content-box;
+}
+
+.supporting-text-about {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  width: 100%;
+  color: #42526e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 130%;
+}
+
+.card-works-inactive {
+  margin-top: 10%;
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1% solid gray;
+  border-radius: 16px;
+  background: #ebf0ee;
+}
+
+.title {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin-top: 12%;
+  margin-bottom: 6%;
+  font-size: 160%;
+  font-weight: 650;
+  color: #344563;
+  align-self: center;
+  font-style: normal;
+}
+
+.frame19-tags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 0.6;
+  gap: 2%;
+  width: 90;
+  margin: 5%;
+  padding: 1%;
+  align-items: center;
+  align-content: inherit;
+}
+
+.frame19-tags li {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  background: #fff;
+  margin: 2%;
+  padding: 2%;
+  flex: 1;
+  font-weight: 600;
+  font-size: 82%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  white-space: nowrap;
+  color: #36b37e;
+}
+
 .footer {
   position: fixed;
   bottom: 0%;
