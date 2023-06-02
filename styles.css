@@ -211,7 +211,8 @@
   width: 100%;
   box-sizing: border-box;
   background-clip: border-box;
-  background-image: url(assets/images/about-illsutration-me.svg), url(assets/images/about-illsutration-mobile.svg);
+  background-image: url(assets/images/about-illsutration-me.svg),
+    url(assets/images/about-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 20% 180%, 180% 30%;
   background-position: revert;
@@ -279,6 +280,80 @@
   border-radius: 5px;
   white-space: nowrap;
   color: #36b37e;
+}
+
+.contact-form {
+  background-image: url(assets/images/contactbg.svg);
+  margin-top: 10%;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form input,
+textarea {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin: 12px 0 12px 0;
+  padding: 5px;
+  width: 90%;
+  text-align: left;
+}
+
+.contact-email {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 5%;
+  margin-bottom: 18%;
+}
+
+.green-btn-submit {
+  font-family: "Inter", sans-serif;
+  background: #36b37f;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  width: auto;
+  font-weight: 500;
+  font-size: 100%;
+  word-spacing: normal;
+  color: #fff;
+  padding: 2%;
+  margin: 10%;
+}
+
+.social-media-icons-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.social-media-icons-foot li {
+  margin: 1% 2%;
 }
 
 .footer {
