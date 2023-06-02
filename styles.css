@@ -13,15 +13,18 @@
 }
 
 .header {
-  padding: 1rem;
+  margin: 1%;
+  padding: 0%;
   width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
 }
 
 .mobile-home {
   background-image: url(assets/images/header-illsutration-mobile.svg);
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+  margin-top: 10%;
   width: 102%;
   display: flex;
   flex-direction: column;
@@ -89,9 +92,12 @@
   margin-top: 5%;
 }
 
-.text {
-  margin-top: 20%;
-  margin-bottom: 1%;
+.recent-works {
+  display: grid;
+  justify-items: center;
+  padding: 0 0 8% 0;
+  margin: 0 5%;
+  width: 100%;
 }
 
 .primary-text {
@@ -99,9 +105,101 @@
   font-style: normal;
   color: #172b4d;
   font-weight: 700;
-  font-size: 210%;
+  font-size: 220%;
   text-align: center;
   width: 100%;
   margin-top: 20%;
   margin-bottom: 1%;
+}
+
+.text {
+  margin-top: 20%;
+  margin-bottom: 1%;
+  color: #172b4d;
+}
+
+.card-work-row1 {
+  display: grid;
+  justify-items: center;
+  width: 95%;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  border: 1px solid grey;
+  border-radius: 16px;
+  width: 86%;
+  padding: 2%;
+  margin-top: 8%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid gainsboro;
+  border-radius: 4px;
+  align-items: center;
+  width: auto;
+}
+
+.project-title {
+  color: #3a4a42;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 115%;
+  background: #fff;
+  padding: 2%;
+}
+
+.tags {
+  gap: 10px;
+  margin: 7% 2% 5% 2%;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  color: #3a4a42;
+  background: #ebf0ee;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 80%;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2%;
+  white-space: nowrap;
+}
+
+.butn {
+  transition: all 0.5s;
+  cursor: pointer;
+  background: #36b37f;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  width: auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  letter-spacing: 0.001em;
+  word-spacing: normal;
+  color: white;
+  transition-duration: 0.4s;
+  padding: 2%;
+  margin: 2%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
