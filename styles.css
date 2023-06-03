@@ -13,15 +13,18 @@
 }
 
 .header {
-  padding: 1rem;
+  margin: 1%;
+  padding: 0%;
   width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
 }
 
 .mobile-home {
   background-image: url(assets/images/header-illsutration-mobile.svg);
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+  margin-top: 10%;
   width: 102%;
   display: flex;
   flex-direction: column;
@@ -89,9 +92,12 @@
   margin-top: 5%;
 }
 
-.text {
-  margin-top: 20%;
-  margin-bottom: 1%;
+.recent-works {
+  display: grid;
+  justify-items: center;
+  padding: 0 0 8% 0;
+  margin: 0 5%;
+  width: 100%;
 }
 
 .primary-text {
@@ -99,9 +105,263 @@
   font-style: normal;
   color: #172b4d;
   font-weight: 700;
-  font-size: 210%;
+  font-size: 220%;
   text-align: center;
   width: 100%;
   margin-top: 20%;
   margin-bottom: 1%;
+}
+
+/* My Recent Works */
+
+.text {
+  margin-top: 20%;
+  margin-bottom: 1%;
+  color: #172b4d;
+}
+
+.card-work-row1 {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+  width: 90%;
+  padding: 0%;
+  margin-top: 8%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  width: auto;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.project-title {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  color: #3a4a42;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120%;
+  background: #fff;
+  padding: 2%;
+}
+
+.tags {
+  gap: 10px;
+  margin: 7% 2% 5% 2%;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  color: #3a4a42;
+  background: #ebf0ee;
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 80%;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2%;
+  white-space: nowrap;
+}
+
+.butn {
+  transition: all 0.5s;
+  cursor: pointer;
+  background: #36b37f;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  width: auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  letter-spacing: 0.001em;
+  word-spacing: normal;
+  color: white;
+  transition-duration: 0.4s;
+  padding: 2%;
+  margin: 2%;
+}
+
+/* About me */
+
+.about-me {
+  margin-top: 7%;
+  padding: 2%;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-on-about {
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: border-box;
+  background-image: url(assets/images/about-illsutration-me.svg), url(assets/images/about-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 20% 180%, 180% 30%;
+  background-position: revert;
+  background-origin: content-box;
+}
+
+.supporting-text-about {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  width: 100%;
+  color: #42526e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 130%;
+}
+
+.card-works-inactive {
+  margin-top: 10%;
+  padding: 1%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gainsboro; /* border: 1px solid gray; */
+  border-radius: 16px;
+  background: #ebf0ee;
+}
+
+.title {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin-top: 12%;
+  margin-bottom: 6%;
+  font-size: 160%;
+  font-weight: 650;
+  color: #344563;
+  align-self: center;
+  font-style: normal;
+}
+
+.frame19-tags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 0.6;
+  gap: 2%;
+  width: 90;
+  margin: 5%;
+  padding: 1%;
+  align-items: center;
+  align-content: inherit;
+}
+
+.frame19-tags li {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  background: #fff;
+  margin: 2%;
+  padding: 2%;
+  flex: 1;
+  font-weight: 600;
+  font-size: 82%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  white-space: nowrap;
+  color: #36b37e;
+}
+
+.contact-form {
+  background-image: url(assets/images/contactbg.svg);
+  margin-top: 10%;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form input,
+textarea {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin: 12px 0 12px 0;
+  padding: 5px;
+  width: 90%;
+  text-align: left;
+}
+
+.contact-email {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 5%;
+  margin-bottom: 18%;
+}
+
+.green-btn-submit {
+  font-family: "Inter", sans-serif;
+  background: #36b37f;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  width: auto;
+  font-weight: 500;
+  font-size: 100%;
+  word-spacing: normal;
+  color: #fff;
+  padding: 2%;
+  margin: 10%;
+}
+
+.social-media-icons-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.social-media-icons-contact li {
+  margin: 1% 2%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
