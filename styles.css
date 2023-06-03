@@ -112,6 +112,8 @@
   margin-bottom: 1%;
 }
 
+/* My Recent Works */
+
 .text {
   margin-top: 20%;
   margin-bottom: 1%;
@@ -121,7 +123,7 @@
 .card-work-row1 {
   display: grid;
   justify-items: center;
-  width: 95%;
+  width: 100%;
 }
 
 .card {
@@ -130,10 +132,10 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  border: 1px solid grey;
-  border-radius: 16px;
-  width: 86%;
-  padding: 2%;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+  width: 90%;
+  padding: 0%;
   margin-top: 8%;
 }
 
@@ -141,18 +143,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 5px solid gainsboro;
-  border-radius: 4px;
+  border-radius: 5px;
   align-items: center;
   width: auto;
+  margin-bottom: 5%;
+  margin-top: 2%;
 }
 
 .project-title {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   color: #3a4a42;
-  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 115%;
+  font-weight: 800;
+  font-size: 120%;
   background: #fff;
   padding: 2%;
 }
@@ -188,7 +191,7 @@
   border-radius: 6px;
   width: auto;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 100%;
   letter-spacing: 0.001em;
   word-spacing: normal;
@@ -197,6 +200,8 @@
   padding: 2%;
   margin: 2%;
 }
+
+/* About me */
 
 .about-me {
   margin-top: 7%;
@@ -233,11 +238,11 @@
 .card-works-inactive {
   margin-top: 10%;
   padding: 1%;
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1% solid gray;
+  border: 1px solid gainsboro; /* border: 1px solid gray; */
   border-radius: 16px;
   background: #ebf0ee;
 }
@@ -342,7 +347,7 @@ textarea {
   margin: 10%;
 }
 
-.social-media-icons-foot {
+.social-media-icons-contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -351,7 +356,7 @@ textarea {
   margin-bottom: 1%;
 }
 
-.social-media-icons-foot li {
+.social-media-icons-contact li {
   margin: 1% 2%;
 }
 
