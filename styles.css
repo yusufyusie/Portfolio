@@ -321,6 +321,7 @@
   text-align: left;
   height: 5vh;
 }
+
 textarea {
   font-family: "Inter", sans-serif;
   font-style: italic;
@@ -355,7 +356,7 @@ textarea {
   text-align: center;
   color: #42526e;
   margin-top: 5%;
-  margin-bottom: 18%;
+  margin-bottom: 5%;
 }
 
 .contact-btn-submit {
@@ -368,8 +369,8 @@ textarea {
   font-size: 100%;
   word-spacing: normal;
   color: #fff;
-  padding: 2%;
-  margin: 10%;
+  padding: 3%;
+  margin: 7% auto 15% auto;
 }
 
 .social-media-icons-contact {
