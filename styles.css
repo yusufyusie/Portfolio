@@ -216,8 +216,7 @@
   width: 100%;
   box-sizing: border-box;
   background-clip: border-box;
-  background-image:
-    url(assets/images/about-illsutration-me.svg),
+  background-image: url(assets/images/about-illsutration-me.svg),
     url(assets/images/about-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 20% 180%, 180% 30%;
@@ -306,7 +305,22 @@
   align-items: center;
 }
 
-.input-form input,
+.input-form input {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin: 12px 0 12px 0;
+  padding: 5px;
+  width: 90%;
+  text-align: left;
+  height: 5vh;
+}
 textarea {
   font-family: "Inter", sans-serif;
   font-style: italic;
@@ -321,6 +335,7 @@ textarea {
   padding: 5px;
   width: 90%;
   text-align: left;
+  height: 17vh;
 }
 
 .details {
