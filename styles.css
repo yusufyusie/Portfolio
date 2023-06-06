@@ -112,7 +112,6 @@
   margin-bottom: 1%;
 }
 
-
 /* My Recent Works */
 
 .text {
@@ -202,7 +201,6 @@
   margin: 2%;
 }
 
-
 /* About me */
 
 .about-me {
@@ -218,7 +216,9 @@
   width: 100%;
   box-sizing: border-box;
   background-clip: border-box;
-  background-image: url(assets/images/about-illsutration-me.svg), url(assets/images/about-illsutration-mobile.svg);
+  background-image:
+    url(assets/images/about-illsutration-me.svg),
+    url(assets/images/about-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 20% 180%, 180% 30%;
   background-position: revert;
@@ -323,6 +323,14 @@ textarea {
   padding: 5px;
   width: 90%;
   text-align: left;
+}
+
+.details {
+  background: #fff;
+  border: 1px solid #60c095;
+  height: 15vh;
+  word-break: break-all;
+  font-style: normal;
 }
 
 .contact-email {
