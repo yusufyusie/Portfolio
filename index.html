@@ -236,9 +236,8 @@
                  in touch.
             </h2>
             <form
-            method="post"
             autocomplete="off"
-            action=""
+        action="https://formspree.io/f/{form_id}" method="post"
             class="input-form"
           >
             <input
@@ -260,7 +259,7 @@
               name="email"
               oninvalid="InvalidMsg(this);"
               oninput="InvalidMsg(this);"
-              required="required"
+              required
             />
             <textarea
               id="textarea-input"
