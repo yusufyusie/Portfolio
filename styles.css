@@ -341,7 +341,7 @@ textarea {
 .details {
   background: #fff;
   border: 1px solid #60c095;
-  height: 15vh;
+  height: 16vh;
   word-break: break-all;
   font-style: normal;
 }
@@ -387,6 +387,6 @@ textarea {
 
 .footer {
   position: fixed;
-  bottom: 0%;
+  bottom: 1%;
   width: 100%;
 }
