@@ -112,6 +112,7 @@
   margin-bottom: 1%;
 }
 
+
 /* My Recent Works */
 
 .text {
@@ -201,6 +202,7 @@
   margin: 2%;
 }
 
+
 /* About me */
 
 .about-me {
@@ -242,7 +244,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid gainsboro; /* border: 1px solid gray; */
+  border: 1px solid gainsboro;
+
+  /* border: 1px solid gray; */
   border-radius: 16px;
   background: #ebf0ee;
 }
