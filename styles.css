@@ -113,7 +113,6 @@
 }
 
 /* My Recent Works */
-
 .text {
   margin-top: 20%;
   margin-bottom: 1%;
@@ -202,7 +201,6 @@
 }
 
 /* About me */
-
 .about-me {
   margin-top: 7%;
   padding: 2%;
@@ -216,7 +214,8 @@
   width: 100%;
   box-sizing: border-box;
   background-clip: border-box;
-  background-image: url(assets/images/about-illsutration-me.svg),
+  background-image:
+    url(assets/images/about-illsutration-me.svg),
     url(assets/images/about-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 20% 180%, 180% 30%;
