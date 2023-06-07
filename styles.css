@@ -113,7 +113,6 @@
 }
 
 /* My Recent Works */
-
 .text {
   margin-top: 20%;
   margin-bottom: 1%;
@@ -202,7 +201,6 @@
 }
 
 /* About me */
-
 .about-me {
   margin-top: 7%;
   padding: 2%;
@@ -242,7 +240,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid gainsboro; /* border: 1px solid gray; */
+  border: 1px solid gainsboro;
   border-radius: 16px;
   background: #ebf0ee;
 }
@@ -288,8 +286,8 @@
 
 .contact-form {
   background-image: url(assets/images/contactbg.svg);
-  margin-top: 10%;
-  padding: 2%;
+  margin-top: 15%;
+  padding: 2% 2% 0 2%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -304,7 +302,23 @@
   align-items: center;
 }
 
-.input-form input,
+.input-form input {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin: 12px 0 12px 0;
+  padding: 5px;
+  width: 90%;
+  text-align: left;
+  height: 5vh;
+}
+
 textarea {
   font-family: "Inter", sans-serif;
   font-style: italic;
@@ -319,6 +333,15 @@ textarea {
   padding: 5px;
   width: 90%;
   text-align: left;
+  height: 17vh;
+}
+
+.details {
+  background: #fff;
+  border: 1px solid #60c095;
+  height: 16vh;
+  word-break: break-all;
+  font-style: normal;
 }
 
 .contact-email {
@@ -330,10 +353,10 @@ textarea {
   text-align: center;
   color: #42526e;
   margin-top: 5%;
-  margin-bottom: 18%;
+  margin-bottom: 5%;
 }
 
-.green-btn-submit {
+.contact-btn-submit {
   font-family: "Inter", sans-serif;
   background: #36b37f;
   border: 2px solid transparent;
@@ -343,8 +366,8 @@ textarea {
   font-size: 100%;
   word-spacing: normal;
   color: #fff;
-  padding: 2%;
-  margin: 10%;
+  padding: 3%;
+  margin: 7% auto 15% auto;
 }
 
 .social-media-icons-contact {
@@ -353,7 +376,6 @@ textarea {
   justify-content: center;
   align-items: baseline;
   width: 100%;
-  margin-bottom: 1%;
 }
 
 .social-media-icons-contact li {
@@ -361,7 +383,7 @@ textarea {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0%;
+  position: absolute;
   width: 100%;
+  margin-bottom: 3%;
 }
