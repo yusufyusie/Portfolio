@@ -383,7 +383,7 @@ textarea {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   margin-bottom: 3%;
 }
