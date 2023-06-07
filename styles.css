@@ -504,6 +504,10 @@ textarea {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
   }
+  .card-about {
+    display: flex;
+    gap: 1.3rem;
+  }
 }
 
 .footer {
