@@ -25,6 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  background-color: #5c6417;
 }
 
 .logo {
@@ -459,15 +460,15 @@ textarea {
     margin: 0 1.5rem;
   }
 
-  .hamburger.active .bar:nth-of-type(1) {
+  .icon-mobile.active .bar:nth-of-type(1) {
     transform: translateY(6.3px) rotate(45deg);
   }
 
-  .hamburger.active .bar:nth-of-type(2) {
+  .icon-mobile.active .bar:nth-of-type(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-of-type(3) {
+  .icon-mobile.active .bar:nth-of-type(3) {
     transform: translateY(-6.3px) rotate(-45deg);
   }
 }
@@ -476,12 +477,12 @@ textarea {
   .mobile-home {
     background-image: none;
     display: flex;
-    background-image: none;
-    width: 70%;
+    width: 76%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5%;
+    letter-spacing: 10%;
   }
 
   body {
@@ -498,8 +499,10 @@ textarea {
       gap: 30px;
       justify-content: center;
       align-items: baseline;
-      margin: 1% auto;
+      margin: 0% auto;
+     background-color: #008552;
   }
+
   .header li a {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -507,10 +510,6 @@ textarea {
     font-weight: 700;
     cursor: pointer;
     color: #172b4d;
-  }
-  
-  .header-1:hover {
-    opacity: 0.8;
   }
 
   .logo {
@@ -539,10 +538,7 @@ textarea {
     display: none;
   }
 
-  .poppage a {
-    cursor: pointer;
-    transition: 0.5s;
-  }
+  
   .main-container {
     display: flex;
     flex-direction: column;
@@ -614,11 +610,67 @@ textarea {
     background: #fff;
     color: #fff;
   }
-  
-  .card-about {
-    display: flex;
-    gap: 1.3rem;
+
+  button:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   }
+  
+  button:active {
+    transition: all 0.15s;
+    background: #008552;
+    box-shadow: none;
+  }
+
+  /* About me  */
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100cqw;
+    padding: 2%;
+    margin-top: 3%;
+  }
+
+  .text-on-about {
+  background-image: url('assets/images/desktop/about-backgr-desktop.svg');
+  background-position: revert;
+  background-size: 100% 100%;
+  }
+
+  .supporting-text-about {
+    display: block;
+    color: #42526e;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    width: 67%;
+    margin-left: 14%;
+    margin-bottom: 4%;
+    letter-spacing: 0.04em;
+  }
+
+  .card-about {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    gap: 2%;
+    width: 92%;
+  }
+
+  .frame19-tags {
+    flex: 0.9;
+    gap: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 0%;
+  }
+
 }
 
 .footer {
