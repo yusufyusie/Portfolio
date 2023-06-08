@@ -6,9 +6,15 @@
   text-decoration: none;
   color: #fff;
   overflow: auto;
-  text-align: center;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   background: none repeat scroll 0 0 transparent;
   border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 1s;
 }
 
 .header {
@@ -24,9 +30,6 @@
 a {
   color: #344563;
   text-decoration: none;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600%;
 }
 
 .logo {
@@ -44,64 +47,67 @@ a {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  right: 1.5rem;
+  right: 3rem;
   transform: translateY(-50%);
   z-index: 1;
 }
 
 .bar {
   width: 1rem;
-  border: 1px solid #acb7c3;
+  border: 1px solid #0d0d0e;
   transition: 0.6s ease;
 }
 
 .mobile-home {
   background-image: url(assets/images/header-illsutration-mobile.svg);
-  padding-bottom: 2%;
-  margin-top: 10%;
-  width: 102%;
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 6%;
+  margin-top: 12%;
+  width: 100%;
+  background-position: left right;
   background-repeat: no-repeat;
   justify-content: center;
-  background-size: 108% 103%;
+  background-size: 103% 102%;
 }
 
 .main-container {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  margin: 2%;
+  margin-top: 1%;
   width: 98%;
+  height: 100%;
   align-items: center;
   justify-content: center;
 }
 
 .primary {
-  margin: 15% 1% 1% 2%;
+  margin: 15% 16% 2% 18%;
   font-family: "Inter", Helvetica, Arial, sans-serif;
   font-style: normal;
   padding-top: 5%;
   font-weight: 800;
-  font-size: 220%;
+  font-size: 230%;
   text-align: center;
   color: #172b4d;
-  width: 95%;
 }
 
 .half-primary {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  padding-top: 1%;
+  font-weight: 800;
+  font-size: 230%;
+  text-align: center;
   color: #36b37e;
 }
 
 .supporting-text {
-  margin: 5% 1% 1% 2%;
+  margin: 5% 5% 2% 5%;
   font-family: "Inter", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 430;
-  font-size: 130%;
-  line-height: 130%;
+  font-weight: 450;
+  font-size: 120%;
+  line-height: 120%;
   text-align: center;
-  width: 98%;
+  width: 90%;
   color: #172b4d;
 }
 
@@ -130,7 +136,7 @@ a {
   display: grid;
   justify-items: center;
   padding: 0 0 8% 0;
-  margin: 0 5%;
+  margin: 0 0%;
   width: 100%;
 }
 
@@ -157,6 +163,7 @@ a {
   display: grid;
   justify-items: center;
   width: 100%;
+  margin: 8%;
 }
 
 .card {
@@ -169,7 +176,7 @@ a {
   border: 1px solid gainsboro;
   width: 90%;
   padding: 0%;
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 .card-text {
@@ -179,7 +186,7 @@ a {
   border-radius: 5px;
   align-items: center;
   width: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   margin-top: 2%;
 }
 
@@ -195,8 +202,8 @@ a {
 
 .tags {
   gap: 10px;
-  margin: 7% 2% 5% 2%;
-  width: 97%;
+  margin: 7% 2% 15% 2%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -231,14 +238,13 @@ a {
   color: white;
   transition-duration: 0.4s;
   padding: 2%;
-  margin: 2%;
+  margin-bottom: 10%;
 }
 
 /* About me */
 .about-me {
-  margin-top: 7%;
-  padding: 2%;
-  width: 86%;
+  margin: 2% 5% 2% 6%;
+  width: 94%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,26 +262,28 @@ a {
 }
 
 .supporting-text-about {
+  margin: 6% 1% 6% 1%;
   font-family: "Inter", Helvetica, Arial, sans-serif;
-  margin-top: 5%;
-  margin-bottom: 8%;
-  width: 100%;
-  color: #42526e;
   font-style: normal;
-  font-weight: 400;
-  font-size: 100%;
-  line-height: 130%;
+  font-weight: 450;
+  font-size: 120%;
+  line-height: 120%;
+  text-align: center;
+  width: 95%;
+  color: #42526e;
 }
 
 .card-works-inactive {
-  margin-top: 10%;
-  padding: 1%;
-  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid gainsboro;
+  justify-items: center;
+  border: 1px solid grey;
   border-radius: 16px;
+  width: 90%;
+  height: 400px;
+  padding: 2%;
+  margin-top: 8%;
   background: #ebf0ee;
 }
 
@@ -291,29 +299,24 @@ a {
 }
 
 .frame19-tags {
+  gap: 10px;
+  margin: 7% 0% 15% 0%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
-  flex: 0.6;
-  gap: 2%;
-  width: 90;
-  margin: 5%;
-  padding: 1%;
-  align-items: center;
-  align-content: inherit;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .frame19-tags li {
   font-family: "Inter", Helvetica, Arial, sans-serif;
   background: #fff;
-  margin: 2%;
-  padding: 2%;
-  flex: 1;
   font-weight: 600;
-  font-size: 82%;
+  font-size: 84%;
+  letter-spacing: 0.01em;
   border: 1px solid transparent;
   border-radius: 5px;
+  padding: 2%;
   white-space: nowrap;
   color: #36b37e;
 }
@@ -416,7 +419,11 @@ textarea {
   margin: 1% 2%;
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
   .logo.active {
     visibility: hidden;
     transition: 0s;
@@ -427,10 +434,10 @@ textarea {
     flex-direction: column;
     left: -100%;
     gap: 0;
-    font-size: 55px;
+    font-size: 32px;
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     mix-blend-mode: normal;
     transition: 0.5s ease-in-out;
   }
@@ -451,33 +458,40 @@ textarea {
     margin: 0 1.5rem;
   }
 
-  .icon-mobile.active .bar:nth-of-type(1) {
+  .hamburger.active .bar:nth-of-type(1) {
     transform: translateY(6.3px) rotate(45deg);
   }
 
-  .icon-mobile.active .bar:nth-of-type(2) {
+  .hamburger.active .bar:nth-of-type(2) {
     opacity: 0;
   }
 
-  .icon-mobile.active .bar:nth-of-type(3) {
+  .hamburger.active .bar:nth-of-type(3) {
     transform: translateY(-6.3px) rotate(-45deg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .mobile-home {
+    background-image: none;
+  }
+
+  body {
     background-image: url(assets/images/Header-llustration-desktop.svg);
-    padding-bottom: 0%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     background-repeat: no-repeat;
-    justify-content: center;
-    background-size: 100% 100%;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
   }
 
   .header {
     padding: 1rem 8.875rem;
+  }
+  .logo {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    transform: rotate(360deg);
+    transition: 1s;
   }
 
   .nav-menu {
@@ -496,7 +510,7 @@ textarea {
   }
 
   .icon-mobile {
-  display: none;
+    display: none;
   }
 
   .card-work-row1 {
