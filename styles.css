@@ -27,16 +27,13 @@ body {
   z-index: 1;
 }
 
-a {
-  color: #344563;
-  text-decoration: none;
-}
-
 .logo {
   font-family: "Inter", Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   transform: rotate(360deg);
-  transition: 1s;
+  transition: 1s;  
+  color: #344563;
+  text-decoration: none;
 }
 
 .icon-mobile {
@@ -144,12 +141,11 @@ a {
   font-family: "Inter", Helvetica, Arial, sans-serif;
   font-style: normal;
   color: #172b4d;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 220%;
   text-align: center;
-  width: 100%;
-  margin-top: 20%;
-  margin-bottom: 1%;
+  width: 65%;
+  margin: 20% 0% 1% 20%;
 }
 
 /* My Recent Works */
@@ -164,6 +160,11 @@ a {
   justify-items: center;
   width: 100%;
   margin: 8%;
+}
+.img-indicator {
+  color: #344563;
+  text-decoration: none;
+  display: none;
 }
 
 .card {
@@ -419,7 +420,7 @@ textarea {
   margin: 1% 2%;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .desktop {
     display: none;
   }
@@ -471,9 +472,16 @@ textarea {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .mobile-home {
     background-image: none;
+    display: flex;
+    background-image: none;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
   }
 
   body {
@@ -485,8 +493,26 @@ textarea {
   }
 
   .header {
-    padding: 1rem 8.875rem;
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      justify-content: center;
+      align-items: baseline;
+      margin: 1% auto;
   }
+  .header li a {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 85%;
+    font-weight: 700;
+    cursor: pointer;
+    color: #172b4d;
+  }
+  
+  .header-1:hover {
+    opacity: 0.8;
+  }
+
   .logo {
     font-family: "Inter", Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
@@ -513,11 +539,82 @@ textarea {
     display: none;
   }
 
+  .poppage a {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1%;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .primary {
+    margin: -1% 10% -1% 10%;
+    font-weight: 650;
+    font-size: 120px;
+  }
+  .half-primary {
+    font-weight: 650;
+    font-size: 120px;
+  }
+
+  .supporting-text {
+    margin: 1% 15% 2% 20%;
+    font-weight: 450;
+    font-size: 280%;
+    line-height: 120%;
+    text-align: center;
+    width: 60%;
+  } */
+  
+  .social-media-icons li {
+    margin: 2% 1%;
+  }
+  
+  .action {
+    color: #505f79;
+  }
+  
+  .icon-chevron-down-larger {
+    margin-top: 5%;
+  }
+  .primary-text {
+     font-weight: 650;
+    font-size: 340%;
+    text-align: center;
+    width: 180%;
+    margin:0%;
+    text-decoration: none;
+  }
+  
+  /* My Recent Works */
+
   .card-work-row1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
+    justify-items: center;    
+   justify-content: space-evenly;
+   justify-items: stretch;
   }
+
+  .card-text {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid transparent;
+    border-radius: 4px;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+  }
+  
   .card-about {
     display: flex;
     gap: 1.3rem;
