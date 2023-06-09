@@ -548,24 +548,20 @@ textarea {
     align-items: center;
     justify-content: center;
   }
-  /* .primary {
-    margin: -1% 10% -1% 10%;
+  .primary {
+    margin: -4% 1% 1% 0%;
     font-weight: 650;
-    font-size: 120px;
   }
   .half-primary {
     font-weight: 650;
-    font-size: 120px;
   }
 
   .supporting-text {
-    margin: 1% 15% 2% 20%;
+    margin: 1% 19% 2% 20%;
     font-weight: 450;
-    font-size: 280%;
     line-height: 120%;
     text-align: center;
-    width: 60%;
-  } */
+  }
   
   .social-media-icons li {
     margin: 2% 1%;
@@ -670,7 +666,22 @@ textarea {
     align-content: center;
     margin: 0%;
   }
-
+/* Contact me part */
+.contact-form {
+  background-image: 
+  url('assets/images/desktop/illustration-1-contact-form-desktop.svg'),
+  url('assets/images/desktop/illustration-2-contact-form-desktop.svg'),
+  url(assets/images/desktop/);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+}
+.contact-form{
 }
 
 .footer {
