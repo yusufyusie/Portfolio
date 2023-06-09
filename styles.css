@@ -32,7 +32,7 @@ body {
   font-family: "Inter", Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   transform: rotate(360deg);
-  transition: 1s;  
+  transition: 1s;
   color: #344563;
   text-decoration: none;
 }
@@ -478,6 +478,8 @@ textarea {
     background-image: none;
     display: flex;
     width: 76%;
+    margin-right: 10%;
+    margin-left: 12%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -494,13 +496,13 @@ textarea {
   }
 
   .header {
-      display: flex;
-      flex-direction: row;
-      gap: 30px;
-      justify-content: center;
-      align-items: baseline;
-      margin: 0% auto;
-     background-color: #008552;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0% auto;
+    background-color: #008552;
   }
 
   .header li a {
@@ -538,7 +540,6 @@ textarea {
     display: none;
   }
 
-  
   .main-container {
     display: flex;
     flex-direction: column;
@@ -562,36 +563,36 @@ textarea {
     line-height: 120%;
     text-align: center;
   }
-  
+
   .social-media-icons li {
     margin: 2% 1%;
   }
-  
+
   .action {
     color: #505f79;
   }
-  
+
   .icon-chevron-down-larger {
     margin-top: 5%;
   }
   .primary-text {
-     font-weight: 650;
+    font-weight: 650;
     font-size: 340%;
     text-align: center;
     width: 180%;
-    margin:0%;
+    margin: 0%;
     text-decoration: none;
   }
-  
+
   /* My Recent Works */
 
   .card-work-row1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    justify-items: center;    
-   justify-content: space-evenly;
-   justify-items: stretch;
+    justify-items: center;
+    justify-content: space-evenly;
+    justify-items: stretch;
   }
 
   .card-text {
@@ -611,7 +612,7 @@ textarea {
     background: #36b37f;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   }
-  
+
   button:active {
     transition: all 0.15s;
     background: #008552;
@@ -623,15 +624,14 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100cqw;
     padding: 2%;
     margin-top: 3%;
   }
 
   .text-on-about {
-  background-image: url('assets/images/desktop/about-backgr-desktop.svg');
-  background-position: revert;
-  background-size: 100% 100%;
+    background-image: url("assets/images/desktop/about-backgr-desktop.svg");
+    background-position: revert;
+    background-size: 100% 100%;
   }
 
   .supporting-text-about {
@@ -651,7 +651,7 @@ textarea {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
-    justify-content:center ;
+    justify-content: center;
     gap: 2%;
     width: 92%;
   }
@@ -666,22 +666,102 @@ textarea {
     align-content: center;
     margin: 0%;
   }
-/* Contact me part */
-.contact-form {
-  background-image: 
-  url('assets/images/desktop/illustration-1-contact-form-desktop.svg'),
-  url('assets/images/desktop/illustration-2-contact-form-desktop.svg'),
-  url(assets/images/desktop/);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
+
+  /* Contact me part */
+  .contact-form {
+    background-image: url("assets/images/desktop/contact-back-desktop.svg");
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 0%;
+  }
+  .contactme-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25%;
+  }
+  .primary-text1 {
+    display: flex;
+    flex-direction: row;
+    color: #42526e;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 45%;
+    margin-top: -25%;
+    margin-right: 2%;
+    letter-spacing: 0.04em;
+  }
+  .input-form {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fullName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 99.4%;
+    gap: 0.6%;
+  }
+  contact-btn-submit {
+    transition: all 0.5s;
+    cursor: pointer;
+    background: #36b37f;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 1.5%;
+    margin-top: 1%;
+    align-self: self-start;
+    margin-bottom: 4%;
+    margin-left: 5%;
+  }
+  
+  .details {
+    background: #fff;
+    border: 1px solid #60c095;
+    height: 15vh;
+    word-break: break-all;
+    font-style: normal;
+  }
+  
+  .name{
+    flex: 1;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #172b4d;
+    background: #fff;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    margin: 12px 0 12px 0;
+    padding: 5px;
+    width: 50cqw;
+    text-align: left;
+  }
+
+ .social-media-icons-contact {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  margin-top: 4%;
-}
-.contact-form{
+  justify-content:center;
+  align-items:center;
+  margin-top: 5%;
+ }
 }
 
 .footer {
