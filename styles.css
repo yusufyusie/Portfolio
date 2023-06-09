@@ -25,7 +25,6 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  background-color: #5c6417;
 }
 
 .logo {
@@ -55,6 +54,15 @@ body {
   border: 1px solid #0d0d0e;
   transition: 0.6s ease;
 }
+/* main container */
+.main-container {
+  text-align: center;
+  margin-top: 1%;
+  width: 98%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
 
 .mobile-home {
   background-image: url(assets/images/header-illsutration-mobile.svg);
@@ -65,15 +73,6 @@ body {
   background-repeat: no-repeat;
   justify-content: center;
   background-size: 103% 102%;
-}
-
-.main-container {
-  text-align: center;
-  margin-top: 1%;
-  width: 98%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
 }
 
 .primary {
@@ -130,6 +129,7 @@ body {
   margin-top: 5%;
 }
 
+/*my recent works or prjects start */
 .recent-works {
   display: grid;
   justify-items: center;
@@ -149,7 +149,6 @@ body {
   margin: 20% 0% 1% 20%;
 }
 
-/* My Recent Works */
 .text {
   margin-top: 20%;
   margin-bottom: 1%;
@@ -243,7 +242,7 @@ body {
   margin-bottom: 10%;
 }
 
-/* About me */
+/* About me starts*/
 .about-me {
   margin: 2% 5% 2% 6%;
   width: 94%;
@@ -333,6 +332,19 @@ body {
   justify-content: center;
   background-position: right bottom;
   background-repeat: no-repeat;
+}
+
+.primary-text1 {
+  display: flex;
+  flex-direction: row;
+  color: #42526e;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 2%;
+  margin-right: 2%;
+  letter-spacing: 0.04em;
 }
 
 .input-form {
@@ -473,7 +485,7 @@ textarea {
   }
 }
 
- /* Start styling desktop version */
+/* Start styling desktop version */
 @media (min-width: 768px) {
   .mobile-home {
     background-image: none;
@@ -500,11 +512,11 @@ textarea {
   .header {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 30px;    
+    font-size: 100%;
     justify-content: center;
     align-items: baseline;
     margin: 0% auto;
-    background-color: #008552;
   }
 
   .header li a {
@@ -521,7 +533,7 @@ textarea {
     font-size: 1.125rem;
     transform: rotate(360deg);
     transition: 1s;
-    margin-right: 30%;
+    margin-right: 26%;
   }
 
   .nav-menu {
@@ -532,7 +544,7 @@ textarea {
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-right: 28rem;
+    margin-right: 22rem;
   }
 
   .nav-item {
@@ -622,32 +634,41 @@ textarea {
     box-shadow: none;
   }
 
-  /* About me  */
+  /* About me Part stasrts */
   .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2%;
-    margin-top: 3%;
+    background-image: url("assets/images/desktop/about-backgr-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .text-on-about {
-    background-image: url("assets/images/desktop/about-backgr-desktop.svg");
+    background-image: none;
     background-position: revert;
     background-size: 100% 100%;
+    margin: 2% 0% 1% 0%;
   }
 
   .supporting-text-about {
+    font-family: "Inter", sans-serif;
     display: block;
     color: #42526e;
-    font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 130%;
-    width: 67%;
-    margin-left: 14%;
-    margin-bottom: 4%;
+    width: 50.1%;
+    margin-left: 20%;
+    margin-bottom: 2%;
     letter-spacing: 0.04em;
+  }
+
+  .butn {
+    font-weight: 600;
+    font-size: 80%;
+    padding: 1%;
+    margin-bottom: 1%;
   }
 
   .card-about {
@@ -673,19 +694,22 @@ textarea {
   /* Contact me part */
   .contact-form {
     background-image: url("assets/images/desktop/contact-back-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin: 0%;
   }
 
   .contactme-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1%;
+    padding-top: 16%;
     align-items: center;
     justify-content: center;
     margin-right: 25%;
@@ -711,8 +735,8 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
-  
-  .fullName{
+
+  .fullName {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -737,7 +761,7 @@ textarea {
     margin-bottom: 4%;
     margin-left: 5%;
   }
-  
+
   .details {
     background: #fff;
     border: 1px solid #60c095;
@@ -745,8 +769,8 @@ textarea {
     word-break: break-all;
     font-style: normal;
   }
-  
-  .name{
+
+  .name {
     flex: 1;
     font-family: "Inter", sans-serif;
     font-style: italic;
@@ -763,14 +787,13 @@ textarea {
     text-align: left;
   }
 
- .social-media-icons-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items:center;
-  margin-top: 5%;
- }
-
+  .social-media-icons-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
 }
 
 .footer {
