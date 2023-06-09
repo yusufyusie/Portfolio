@@ -473,12 +473,14 @@ textarea {
   }
 }
 
+ /* Start styling desktop version */
 @media (min-width: 768px) {
   .mobile-home {
     background-image: none;
     display: flex;
-    width: 76%;
-    margin-right: 10%;
+    width: 75.8%;
+    font-size: 100%;
+    margin-right: 14%;
     margin-left: 12%;
     flex-direction: column;
     justify-content: center;
@@ -519,6 +521,7 @@ textarea {
     font-size: 1.125rem;
     transform: rotate(360deg);
     transition: 1s;
+    margin-right: 30%;
   }
 
   .nav-menu {
@@ -529,7 +532,7 @@ textarea {
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-right: 22rem;
+    margin-right: 28rem;
   }
 
   .nav-item {
@@ -678,6 +681,7 @@ textarea {
     align-content: center;
     margin: 0%;
   }
+
   .contactme-container {
     display: flex;
     flex-wrap: wrap;
@@ -686,25 +690,28 @@ textarea {
     justify-content: center;
     margin-right: 25%;
   }
+
   .primary-text1 {
     display: flex;
     flex-direction: row;
     color: #42526e;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 150%;
     width: 45%;
-    margin-top: -25%;
+    margin-top: -16%;
     margin-right: 2%;
     letter-spacing: 0.04em;
   }
+
   .input-form {
     flex: 1.5;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  
   .fullName{
     display: flex;
     flex-direction: row;
@@ -712,7 +719,8 @@ textarea {
     width: 99.4%;
     gap: 0.6%;
   }
-  contact-btn-submit {
+
+  .contact-btn-submit {
     transition: all 0.5s;
     cursor: pointer;
     background: #36b37f;
@@ -762,6 +770,7 @@ textarea {
   align-items:center;
   margin-top: 5%;
  }
+
 }
 
 .footer {
