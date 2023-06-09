@@ -54,6 +54,7 @@ body {
   border: 1px solid #0d0d0e;
   transition: 0.6s ease;
 }
+
 /* main container */
 .main-container {
   text-align: center;
@@ -129,7 +130,7 @@ body {
   margin-top: 5%;
 }
 
-/*my recent works or prjects start */
+/* my recent works or prjects start */
 .recent-works {
   display: grid;
   justify-items: center;
@@ -161,6 +162,7 @@ body {
   width: 100%;
   margin: 8%;
 }
+
 .img-indicator {
   color: #344563;
   text-decoration: none;
@@ -242,7 +244,7 @@ body {
   margin-bottom: 10%;
 }
 
-/* About me starts*/
+/* About me starts */
 .about-me {
   margin: 2% 5% 2% 6%;
   width: 94%;
@@ -512,7 +514,7 @@ textarea {
   .header {
     display: flex;
     flex-direction: row;
-    gap: 30px;    
+    gap: 30px;
     font-size: 100%;
     justify-content: center;
     align-items: baseline;
@@ -564,10 +566,12 @@ textarea {
     align-items: center;
     justify-content: center;
   }
+
   .primary {
     margin: -4% 1% 1% 0%;
     font-weight: 650;
   }
+
   .half-primary {
     font-weight: 650;
   }
@@ -590,6 +594,7 @@ textarea {
   .icon-chevron-down-larger {
     margin-top: 5%;
   }
+
   .primary-text {
     font-weight: 650;
     font-size: 340%;
@@ -605,7 +610,6 @@ textarea {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    justify-items: center;
     justify-content: space-evenly;
     justify-items: stretch;
   }
@@ -783,7 +787,6 @@ textarea {
     border-radius: 4px;
     margin: 12px 0 12px 0;
     padding: 5px;
-    width: 50cqw;
     text-align: left;
   }
 
