@@ -27,6 +27,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -40,6 +41,7 @@ h3 {
   margin-right: 4%;
   text-align: justify;
 }
+
 span {
   color: var(--color-primary);
 }
@@ -604,7 +606,6 @@ button:active {
   text-align: center;
   justify-content: center;
   align-items: center;
-
   background: url(./assets/images/illustration-contact-form.svg) no-repeat 100% 90%;
   padding: 2em 5em;
 }
