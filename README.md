@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--N/A
+[View demo] (https://yusufyusie.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
