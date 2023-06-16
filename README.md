@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./assets/images/Snapshoot_Portfolio.png"  alt="Personal portfolio video">"
+  <img src="./assets/images/yusuf-portfolio-mobile-play.png"  alt="Personal portfolio video">"
   <br>
    <a href="https://www.loom.com/share/ca0e7d3c33e8475490e589aeac64f287">Watch full video </a>
 </div>
